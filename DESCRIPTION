@@ -13,8 +13,19 @@ Depends: R (>= 3.2.3)
 License: MIT + file LICENSE
 LazyData: true
 Imports:
-  graphics, 
-  runjags
+  graphics,
+  curl,
+  DesignLibrary,
+  dplyr,
+  forecast,
+  httr,
+  lubridate,
+  portalr,
+  readr,
+  rlang,
+  tscount,
+  viridis,
+  yaml
 Suggests:
   knitr,
   pkgdown,
